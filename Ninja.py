@@ -1,5 +1,6 @@
 from Tamagotchi import *
 class Ninja(Tamagotchi):
+    # init function
     def __init__(self, stat, hunger, happiness, training, sickness, age, weight, weapon, weapon_lvl):
         Tamagotchi.__init__(stat, hunger-5, happiness-2, training+5, sickness-2, age, weight+10)
         self.weapon = weapon
